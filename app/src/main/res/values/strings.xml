@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FCM with Android Broadcast</string>
+    <string name="number_of_visitors">Jumlah Pengunjung</string>
+    <string name="_0">0</string>
+</resources>
