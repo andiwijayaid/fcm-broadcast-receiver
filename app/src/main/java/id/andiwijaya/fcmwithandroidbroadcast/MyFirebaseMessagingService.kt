@@ -17,7 +17,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         when (remoteMessage.data["type"]) {
             "add" -> {
                 val addServiceIntent = Intent(this, AddService::class.java)
-                startService(addServiceIntent)
+                AddService.enqueueWork(applicationContext, addServiceIntent)
             }
         }
     }
